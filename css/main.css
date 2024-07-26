@@ -1,0 +1,151 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-color:  #F0F8FF;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #858fb3;
+}
+.text-muted{
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.aside {
+  height: 400px;
+}
+
+.main {
+  height: 400px;
+}
+.d-flex {
+  display: flex;
+}
+.mb-2{
+  text-align: center;
+  font-weight: 700;
+  color: #F2994A;
+}
+.mb-5{
+  text-align: center;
+  letter-spacing: 10px;
+}
+span{
+  color: #F2994A;
+  font-weight: 600;
+
+}
+.task-title {
+  color: #fff;
+  max-width: 980px;
+  font-weight: 500;
+  padding-top: 5px;
+  font-size: 20px;
+}
+.gray {
+  color: #BDBDBD;
+}
+.task-title--done {
+  text-decoration: line-through;
+  color: #CDCDCD;
+}
+.task-item{
+  background-color: #858fb3;
+}
+
+.task-item__buttons {
+  display: flex;
+  column-gap: 5px;
+}
+.notify-holder {
+  height: 60px;
+  margin-bottom: 20px;
+}
+.empty-list {
+  background-color: #858fb3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.empty-list__title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 10px;
+}
+.empty-list__icon {
+  color: #42BE2A;
+  font-size: 32px;
+}
+.card-header{
+  background-color: #858fb3;
+}
+.btn-action {
+    background-color: #e0e5ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action:hover {
+    background-color: #e0e5ea;
+    opacity: 1;
+}
+
+.btn-action img {
+  pointer-events: none;
+}
+
+.none {
+  display: none !important;
+}
+
+.float-right {
+  float: right;
+}
+.copyright {
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px;
+  /* position: absolute; */
+  /* bottom: 30px; */
+  /* left: 0; */
+  /* right: 0; */
+}
+
+.card-body{
+  background-color: #F2994A;
+}
+.form-control{
+  background-color: #f0f0f183;
+}
+.card-header{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active{
+  background-color: #858fb3;
+  border-color: #979aa4;
+  color: #fff;
+}
